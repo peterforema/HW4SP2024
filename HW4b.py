@@ -20,7 +20,7 @@ roots2 = fsolve(equation2, x0=[0, 2, 4])
 print("Roots of equation 2:", roots2)
 
 # Check if functions intersect
-intersections = fsolve(lambda x: equation1(x) - equation2(x), x0=[0, 2, 4])
+intersections = fsolve(lambda x: equation1(x) - equation2(x), x0=[0, 2, 4])     #if else statement from CHAT
 if len(intersections) > 0:
     print("Functions intersect at x =", intersections)
 else:

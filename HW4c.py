@@ -17,7 +17,7 @@ Aaug1 = np.array([          #1st matrix
 ])
 
 Aaug2 = np.array([          #2nd matrix
-    [3, 1, 4, 12, 12],
+    [3, 1, 4, 12, 12],      #matrix reorganized
     [1, -10, 2, 4, 2],
     [-1, 2, 7, 3, 37],
     [9, 2, 3, 4, 21]
