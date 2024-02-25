@@ -1,10 +1,8 @@
-
 #region imports
 import numpy as np
 from scipy import stats
 import matplotlib.pyplot as plt
 #endregion
-
 
 def plot_probability_density(mean, std_dev, condition_value):
     '''Calculate the probability P(x < 1 | N(0, 1))

@@ -3,7 +3,6 @@ import numpy as np
 from scipy.linalg import solve
 #endregion
 
-
 def matrixsolve(A_aug):
     '''function creates augmented matrix and populates with samples from problem c'''
     A = A_aug[:, :-1]
@@ -22,7 +21,6 @@ Aaug2 = np.array([          #2nd matrix
     [-1, 2, 7, 3, 37],
     [9, 2, 3, 4, 21]
 ])
-
 
 
 print("Problem 1:")                 #problem 1 print statements
